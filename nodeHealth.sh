@@ -1,18 +1,20 @@
 #!/bin/bash
 
-#=========================
-# name: adekunle
-# version: 1.0
-#=========================
+#==========================
+# Name: Adekunle
+#======================
 
-set -xoe
+echo "storage health"
+df -h
+echo "=========================="
 
-# show the running process
- ps -ef | grep amazon
+echo "number of system core"
+nproc
+echo" ========================="
 
-# this line show the number of core on the system
- nproc
+echo "process running on the system"
+ps -ef
+echo "============================"
 
-# this line show the storage info
- df -h
-
+echo "currently used ram and what is free"
+free -h

@@ -1,9 +1,11 @@
 #!/bin/bash
 
+#==================================================
 # name: ejiwumi
 # date: 2025
 # version: 1.0.0
 # About: This script will be use to push local git repo to github repo
+#==================================================
 
 git status
 git add .
