@@ -9,7 +9,7 @@
 
 git status
 git add .
-
+            
 # argument for the commit message
 read -p "Enter commit message: " message
 
